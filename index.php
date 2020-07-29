@@ -8,6 +8,7 @@
 	$following = "";
 	$repo = "";
 	$error = "";
+	$web = "";
 	if (array_key_exists('username', $_GET)){
 
 		$username = str_replace(' ', '', $_GET['username']);
